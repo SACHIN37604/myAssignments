@@ -1,0 +1,12 @@
+Circular Buffer
+1. circularBuffer.cpp and circularBuffer.hpp 
+     - CircularBuffer class implementation.
+     - Implement a circular buffer with a single producer and multiple consumers
+
+2. test.cpp
+     - test(CheckDuplicates) for checking duplicates consumed by consumers i.e. concanconcatenating all files data and hashing it
+     - test(CheckForAllNumbers) for all numbers i.e. all numbers from 1 to n are present
+
+3. Makefile
+     - make: automatic building your code with c++17
+     - make clean: clean compiled files

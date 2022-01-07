@@ -1,0 +1,17 @@
+Limit directory size:
+1. generate.cpp and generate.hpp 
+     - Generate class implementation.
+	 - It creates Directory structure  
+
+2. limitDirSize.cpp and limitDirSize.hpp
+	 - LimitDirSize class implementation
+	 - The utility keep the files/directories whose cumulative size does not cross the given size and delete the rest of the files/directories.
+	 - The oldest files are deleted
+
+3. test.cpp
+     - test(CheckSize) for Directory size i.e. directory size after performing delete operation should be less than or equal to given size
+     - test(OldestFileCheck) for delete function module i.e. Oldest files should be deleted (based on modification time)
+
+4. Makefile
+     - make: automatic building your code with cpp
+	 - make clean: clean compiled files

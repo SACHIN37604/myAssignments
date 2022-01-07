@@ -1,0 +1,12 @@
+Linux-shell over a network:
+1. server.cpp and server.hpp 
+     - server class implementation. 
+     - creates, bind and listen socket and maintains communication with the client
+
+2. client.cpp and client.hpp 
+     - client class implementation. 
+     - creates socket and connects it to the server and maintains communication with the server 
+
+3. Makefile
+     - make: automatic building your code with cpp
+     - make clean: clean compiled files
